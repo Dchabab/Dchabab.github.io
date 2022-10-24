@@ -37,7 +37,7 @@ li a:hover:not(active) {
 }
 
 #body3 {
-    background-color:chartreuse;
+    background-color:rgb(109, 224, 240);
 
 }
 
@@ -45,9 +45,9 @@ li a:hover:not(active) {
     background-color: cadetblue;
 }
 #body5 {
-    background-color: darkseagreen;
+    background-color: rgb(224, 182, 248);
 
 }
 #body6 {
-    background-color:chartreuse;
+    background-color:rgb(93, 158, 133);
 }
