@@ -21,17 +21,19 @@ li a:hover:not(active) {
     background-color: azure;
 }
 
-ul {
-    footer {
-        text-align: center;
-        padding: 3px;
-        background-color: rgb(238, 193, 178);
-        color: rgb(46, 42, 42);
-    }
+
 
 #body1 {
     background-color: chartreuse;
-
+    .footer 
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+     
 
 }
 
