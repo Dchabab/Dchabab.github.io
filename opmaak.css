@@ -53,5 +53,8 @@ li a:hover:not(active) {
 }
 
 footer {
-    background-color : white;   
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
 }
