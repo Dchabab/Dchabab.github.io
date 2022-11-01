@@ -24,13 +24,13 @@ li a:hover:not(active) {
 
 
 #body1 {
-    background-color: chartreuse;
+    background-color: rgb(255, 0, 179);
 
 
 }
 
 #body2 {
-    background-color: darkseagreen;
+    background-color: rgb(229, 168, 219);
 
 }
 
@@ -40,14 +40,14 @@ li a:hover:not(active) {
 }
 
 #body4 {
-    background-color: cadetblue;
+    background-color: rgb(179, 150, 206);
 }
 #body5 {
     background-color: rgb(224, 182, 248);
 
 }
 #body6 {
-    background-color:rgb(93, 158, 133);
+    background-color:rgb(232, 118, 150);
 }
 
 footer {
