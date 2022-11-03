@@ -1,4 +1,30 @@
-ul {
+* {
+    box-sizing:content-box;
+  }
+  
+  body {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    background-color: rgb(123, 118, 192);
+  }
+  
+  
+  header {
+    background-color: rgb(167, 21, 101);
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  
+  
+  nav {
+    float: left;
+    width: 20%;
+    height: 600px;
+    background:  rgb(238, 255, 175);
+    padding: 20px;
+  }
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -50,6 +76,25 @@ li a:hover:not(active) {
     background-color:rgb(232, 118, 150);
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color:rgb(171, 224, 174);
+  }
+  
+ 
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 footer {
   text-align: center;
   padding: 3px;
