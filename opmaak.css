@@ -49,34 +49,6 @@ li a:hover:not(active) {
     background-color: azure;
 }
 
-
-#body1 {
-    background-color: rgb(255, 0, 179);
-
-
-}
-
-#body2 {
-    background-color: rgb(229, 168, 219);
-
-}
-
-#body3 {
-    background-color:rgb(109, 224, 240);
-
-}
-
-#body4 {
-    background-color: rgb(179, 150, 206);
-}
-#body5 {
-    background-color: rgb(224, 182, 248);
-
-}
-#body6 {
-    background-color:rgb(232, 118, 150);
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
