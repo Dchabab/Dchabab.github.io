@@ -4,12 +4,12 @@
   
   body {
     font-family:Georgia, 'Times New Roman', Times, serif ;
-    background-color: rgb(123, 118, 192);
+    background-color: rgb(142, 141, 160);
   }
   
   
   header {
-    background-color: rgb(167, 21, 101);
+    background-color: rgb(186, 224, 16);
     padding: 10px;
     text-align: center;
     font-size: 25px;
@@ -21,7 +21,7 @@
     float: left;
     width: 15%;
     height: 500px;
-    background:  rgb(238, 255, 175);
+    background:  azure;
     padding: 20px;
   }
 
@@ -40,7 +40,7 @@ li {
 
 li a {
     display:block;
-    color:rgb(54, 47, 48);
+    color:white;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     padding: 14px 16px;
@@ -66,7 +66,7 @@ nav ul {
   .tekstkop{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(212, 108, 82);
-    color: black;
+    color: white;
     padding: 9px;
   
   }
