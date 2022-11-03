@@ -19,8 +19,8 @@
   
   nav {
     float: left;
-    width: 20%;
-    height: 600px;
+    width: 15%;
+    height: 500px;
     background:  rgb(238, 255, 175);
     padding: 20px;
   }
@@ -59,11 +59,17 @@ nav ul {
   article {
     float: left;
     padding: 20px;
-    width: 80%;
+    width: 75%;
     background-color:rgb(171, 224, 174);
   }
   
+  .tekstkop{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(212, 108, 82);
+    color: black;
+    padding: 9px;
   
+  }
   section::after {
     content: "";
     display: table;
