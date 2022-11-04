@@ -85,7 +85,7 @@ footer {
 
 #link1  {
 color: black;
-background-color: lightsalmon;
+background-color: rgb(42, 166, 73);
 text-align: center;
 padding: 8px 8px;
 text text-decoration: none;
@@ -93,7 +93,7 @@ text text-decoration: none;
 
 #link2  {
   color: black;
-  background-color: lightsalmon;
+  background-color: rgb(42, 166, 73);
   text-align: center;
   padding: 8px 8px;
   text text-decoration: none;
