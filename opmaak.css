@@ -22,7 +22,7 @@
     width: 22%;
     height: 650px;
     background:  rgb(253, 236, 219);
-    padding: 20px;
+    padding: 30px;
   }
 
 
@@ -64,7 +64,7 @@ nav ul {
   }
   
   .tekstkop{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: lightsalmon;
     color: rgb(243, 114, 200);
     padding: 9px;
