@@ -3,7 +3,7 @@
   }
   
   body {
-    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     background-color: rgb(221, 220, 233);
   }
   
@@ -64,7 +64,7 @@ nav ul {
   }
   
   .tekstkop{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: lightsalmon;
     color: white;
     padding: 9px;
