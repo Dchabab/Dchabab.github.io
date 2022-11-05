@@ -16,9 +16,9 @@
     color: white;
   }
   
-  /*met heb ik floating toegpast, ik heb twee boxen naast elkaar laten floten.*/
+  /*hiermee heb ik floating toegpast, ik heb twee boxen naast elkaar laten floten.*/
   nav {
-    float: right;
+    float: right; /*hiermee heb ik er voor gezorgd dat mijn menu balk rechts float*/
     width: 22%;
     height: 650px;
     background:  rgb(253, 236, 219);
