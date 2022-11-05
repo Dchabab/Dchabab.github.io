@@ -1,13 +1,13 @@
 * {
     box-sizing:border-box;
   }
-  
+  /*Dit is de stijl van de body, hierbij is het lettertype en achtergrondkleur gegeven*/
   body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     background-color: rgb(221, 220, 233);
   }
   
-  
+  /*Dit is de stijl van de header*/
   header {
     background-color: rgb(224, 16, 130);
     padding: 10px;
@@ -16,7 +16,7 @@
     color: white;
   }
   
-  
+  /*hiermee heb ik floating toegpast, ik heb twee boxen naast elkaar laten floten. Verder heb ik het menu gestijld*/
   nav {
     float: right;
     width: 22%;
@@ -46,7 +46,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
+/*dit is wat je te zien krijgt als je het menu aanraakt, ik heb er de kleur azure voor gekozen*/
 li a:hover:not(active) {
     background-color: azure;
 }
@@ -55,14 +55,14 @@ nav ul {
     list-style-type: none;
     padding: 0;
   }
-  
+  /*hiermee heb ik het blok waarin ik mijn tekst heb geschreven gestijld*/
   article {
     float: left;
     padding: 20px;
     width: 75%;
     background-color:rgb(171, 224, 174);
   }
-  
+  /*hiermee heb ik mijn tekstkopjes gestijld*/
   .tekstkop{
     font-family: 'Courier New', Courier, monospace;
     background-color: lightsalmon;
@@ -70,12 +70,14 @@ nav ul {
     padding: 9px;
   
   }
+  /*kolommen behouden juiste positie*/
   section::after {
     content: "";
     display: table;
     clear: both;
   }
-  
+
+  /*hiermee heb ik mijn footer gestijld*/
 footer {
   text-align: center;
   padding: 11px;
