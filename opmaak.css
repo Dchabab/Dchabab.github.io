@@ -16,7 +16,7 @@
     color: white;
   }
   
-  /*hiermee heb ik floating toegpast, ik heb twee boxen naast elkaar laten floten. Verder heb ik het menu gestijld*/
+  /*met heb ik floating toegpast, ik heb twee boxen naast elkaar laten floten.*/
   nav {
     float: right;
     width: 22%;
@@ -25,7 +25,7 @@
     padding: 30px;
   }
 
-
+/* Verder heb ik het menu gestijld met onder andere ul. Ik heb geen bepaalde lijst stijl gebruikt. Verder is de margin 0, dat is de afstand die er zit tussen de tekst en de bovenkant van de website. De backround-color geeft de achtergrondskleur aan van het menu. Verder zijn mijn padding 0 en overflow geeft aan wat er moet worden gedaan als iets niet in de goede grootte of hoogte is.*/
   ul {
     list-style-type: none;
     margin: 0;
@@ -61,7 +61,8 @@ nav ul {
     padding: 20px;
     width: 75%;
     background-color:rgb(171, 224, 174);
-  }
+
+ 
   /*hiermee heb ik mijn tekstkopjes gestijld*/
   .tekstkop{
     font-family: 'Courier New', Courier, monospace;
@@ -70,7 +71,7 @@ nav ul {
     padding: 9px;
   
   }
-  /*kolommen behouden juiste positie*/
+  /*hiermee behouden kolommen hun juiste positie*/
   section::after {
     content: "";
     display: table;
