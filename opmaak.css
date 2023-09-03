@@ -16,27 +16,11 @@
     color:white;
   }
   
-  /*hiermee heb ik floating toegpast, ik heb twee boxen naast elkaar laten floten.*/
-  nav {
-    float: right; /*hiermee heb ik er voor gezorgd dat mijn menu balk rechts float*/
-    width: 22%;
-    height: 650px;
-    background:  rgb(253, 236, 219);
-    padding: 30px;
-  }
+ 
 
-/* Verder heb ik het menu gestijld met onder andere ul. Ik heb geen bepaalde lijst stijl gebruikt. Verder is de margin 0, dat is de afstand die er zit tussen de tekst en de bovenkant van de website. De backround-color geeft de achtergrondskleur aan van het menu. Verder zijn mijn padding 0 en overflow geeft aan wat er moet worden gedaan als iets niet in de goede grootte of hoogte is.*/
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightsalmon;
-}
 
-li {
-    float: left;
-}
+
+
 
 li a {
     display:block;
