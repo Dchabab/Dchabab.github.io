@@ -1,5 +1,5 @@
 * {
-    box-sizing:border-box;
+    box-sizing:content-box;
   }
   /*Dit is de stijl van de body, hierbij is het lettertype en achtergrondkleur gegeven*/
   body {
@@ -17,11 +17,6 @@
   }
   
  
-
-
-
-
-
 li a {
     display:block;
     color:white;
