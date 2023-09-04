@@ -1,6 +1,4 @@
-* {
-    box-sizing:content-box;
-  }
+* 
   /*Dit is de stijl van de body, hierbij is het lettertype en achtergrondkleur gegeven*/
   body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
