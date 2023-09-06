@@ -36,7 +36,7 @@ nav ul {
   article {
     float: left;
     padding: 15px;
-    width: 100%;
+    width: 80%;
     background-color:rgb(246, 222, 241);
   }
  
@@ -74,7 +74,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .navbar {
   overflow: hidden;
-  background-color: rgb(109, 0, 75);
+  background-color: rgb(210, 101, 175);
 }
 
 .navbar a {
