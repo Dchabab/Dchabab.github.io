@@ -98,7 +98,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;  
   border: none;
   outline: none;
-  color: rgba(16, 2, 2, 1);
+  color: rgba(16, 2, 2, 0.013);
   padding: 12px 14px;
   background-color: inherit;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -136,4 +136,19 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.dropbtn {
+  overflow: hidden;
+  background-color: rgb(210, 101, 175);
+}
+
+.dropbtn a {
+  float: left;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  border-right: 3px solid rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
