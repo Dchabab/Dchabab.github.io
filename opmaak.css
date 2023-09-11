@@ -1,4 +1,4 @@
-* 
+ 
   /*Dit is de stijl van de body, hierbij is het lettertype en achtergrondkleur gegeven*/
   body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -98,7 +98,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;  
   border: none;
   outline: none;
-  color: rgba(16, 2, 2, 0.013);
+  color: rgba(16, 2, 2, 1);
   padding: 12px 14px;
   background-color: inherit;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
