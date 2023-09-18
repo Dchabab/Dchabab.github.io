@@ -41,12 +41,12 @@ nav ul {
   }
  
   /*hiermee heb ik mijn tekstkopjes gestijld*/
-  .tekstkop{
+  .tekstkop {
     font-family: 'Courier New', Courier, monospace;
     background-color: lightsalmon;
     color: rgb(243, 114, 200);
     padding: 9px;
-  
+    width: 100%; /* Add this line to make the boxes span the full width */
   }
   /*hiermee behouden kolommen hun juiste positie*/
   section::after {
