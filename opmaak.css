@@ -1,140 +1,126 @@
  
-  /* stijl voor de body */
+ /* Stijl voor de body */
 body {
-  font-family: 'Comic Sans MS', cursive; /* een leuk lettertype, hier "Comic Sans MS" als voorbeeld */
+  font-family: Arial, sans-serif; /* Standaard lettertype */
   background-color: mintcream; /* Mintgroen-achtige achtergrondkleur */
+  margin: 0;
+  padding: 0;
 }
 
-/* stijl voor de header */
+/* Stijl voor de header */
 header {
-  background-color: hotpink; /* Velroze-achtige achtergrondkleur */
-  padding: 10px;
+  background-color: rosybrown; /* Roodbruine achtergrondkleur */
   text-align: center;
-  font-size: 25px;
+  padding: 20px;
   color: white;
 }
 
-/* stijl voor links binnen lijstitems (navigatiemenu) */
-li a {
-  display: block;
-  color: white;
-  font-family: 'Comic Sans MS', cursive; /* leuke lettertype als voor de body */
-  text-align: center;
-  padding: 14px 16px;
+/* Stijl voor links binnen lijstitems (navigatiemenu) */
+.navbar a {
+  color: #ff69b4; /* Roze tekstkleur */
   text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-/*  stijl voor hover-effect op links binnen lijstitems */
-li a:hover:not(active) {
-  background-color: lavenderblush; /* Velroze-achtige achtergrondkleur bij hover */
+/* Stijl voor hover-effect op links binnen lijstitems */
+.navbar a:hover {
+  background-color: #98fb98; /* Mintgroen-achtige achtergrondkleur bij hover */
+  color: #ff1493; /* Donkerroze tekstkleur bij hover */
 }
 
-/* stijl voor de achtergrond van het artikel */
+/* Stijl voor de achtergrond van het artikel */
 article {
-  float: left;
-  padding: 15px;
-  width: 90%;
   background-color: mintcream; /* Mintgroen-achtige achtergrondkleur */
+  padding: 20px;
 }
 
-/* stijl voor tekstkoppen */
+/* Stijl voor tekstkoppen */
 .tekstkop {
-  font-family: 'Comic Sans MS', cursive; /* hetzelfde leuke lettertype als voor de body */
-  background-color: hotpink; /* Velroze-achtige achtergrondkleur voor koppen */
-  color: mediumvioletred; /* Velroze-achtige tekstkleur voor koppen */
-  padding: 9px;
-  width: 100%;
+  background-color: rosybrown; /* Roodbruine achtergrondkleur voor koppen */
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin: 0;
 }
 
 /* Aangepaste stijl voor de footer */
 footer {
   text-align: center;
-  padding: 11px;
-  background-color: hotpink; /* Velroze-achtige achtergrondkleur voor de footer */
+  padding: 10px;
+  background-color: rosybrown; /* Roodbruine achtergrondkleur voor de footer */
   color: white;
 }
 
 /* Aangepaste stijl voor links in een box */
 #link1 {
-  color: black;
-  background-color: mintcream; /* Mintgroen-achtige achtergrondkleur voor de link-box */
+  color: rosybrown; /* Roodbruine tekstkleur voor de link-box */
+  background-color: #ff69b4; /* Roze achtergrondkleur voor de link-box */
   text-align: center;
-  padding: 8px 8px;
+  padding: 10px 15px;
   text-decoration: none;
-  font-family: 'Comic Sans MS', cursive; /* hetzelfde leuke lettertype als voor de body */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-/* stijl voor de navigatiebalk */
+/* Stijl voor de navigatiebalk */
 .navbar {
   overflow: hidden;
-  background-color: hotpink; /* Velroze-achtige achtergrondkleur voor de navigatiebalk */
+  background-color: rosybrown; /* Roodbruine achtergrondkleur voor de navigatiebalk */
 }
 
-/* stijl voor links in de navigatiebalk */
-.navbar a {
-  float: left;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  padding: 12px 14px;
-  text-decoration: none;
-  border-right: 3px solid white;
-  font-family: 'Comic Sans MS', cursive; /* hetzelfde leuke lettertype als voor de body */
-}
-
-/* stijl voor de dropdown */
+/* Stijl voor dropdowns in de navigatiebalk */
 .dropdown {
   float: left;
   overflow: hidden;
-  border-right: 3px solid white;
 }
 
-/* stijl voor de dropdownknop */
+/* Stijl voor de dropdownknop */
 .dropdown .dropbtn {
-  font-size: 20px;
+  font-weight: bold;
   border: none;
   outline: none;
-  color: rgba(16, 2, 2);
-  padding: 12px 14px;
-  background-color: inherit;
-  font-family: 'Comic Sans MS', cursive; /* Gebruik hetzelfde leuke lettertype als voor de body */
-  margin: 0;
+  color: rosybrown; /* Roodbruine tekstkleur voor dropdown-knop */
+  padding: 10px 15px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
 }
 
-/* stijl voor hover-effect op links in de navigatiebalk en dropdowns */
+/* Stijl voor hover-effect op links in de navigatiebalk en dropdowns */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: lavenderblush; /* Velroze-achtige achtergrondkleur bij hover */
-  color: white;
+  background-color: #ff69b4; /* Roze achtergrondkleur bij hover */
+  color: #98fb98; /* Mintgroene tekstkleur bij hover */
 }
 
-/* stijl voor dropdown-content */
+/* Stijl voor dropdown-content */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #ff69b4; /* Roze achtergrondkleur voor dropdown-content */
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-/* stijl voor links in dropdown-content */
+/* Stijl voor links in dropdown-content */
 .dropdown-content a {
-  float: none;
-  color: white;
-  background-color: #f6aedd;
-  padding: 12px 16px;
+  color: #98fb98; /* Mintgroene tekstkleur voor links in dropdown-content */
+  background-color: transparent;
+  padding: 10px 15px;
+  font-weight: bold;
   text-decoration: none;
   display: block;
-  text-align: left;
+  transition: background-color 0.3s ease;
 }
 
-/*  stijl voor hover-effect op links in dropdown-content */
+/* Stijl voor hover-effect op links in dropdown-content */
 .dropdown-content a:hover {
-  background-color: lavenderblush; /* Velroze-achtige achtergrondkleur bij hover */
-  color: mediumvioletred; /* Velroze-achtige tekstkleur bij hover */
+  background-color: #ff1493; /* Donkerroze achtergrondkleur bij hover */
+  color: #fff; /* Witte tekstkleur bij hover */
 }
 
-/* stijl om dropdown-content weer te geven bij hover op de dropdown */
+/* Stijl om dropdown-content weer te geven bij hover op de dropdown */
 .dropdown:hover .dropdown-content {
   display: block;
 }
