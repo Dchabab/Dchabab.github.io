@@ -1,126 +1,156 @@
  
- /* Stijl voor de body */
-body {
-  font-family: Arial, sans-serif; /* Standaard lettertype */
-  background-color: mintcream; /* Mintgroen-achtige achtergrondkleur */
-  margin: 0;
+ /*Dit is de stijl van de body, hierbij is het lettertype en achtergrondkleur gegeven*/
+ body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  background-color: rgb(221, 220, 233);
+}
+
+/*Dit is de stijl van de header*/
+header {
+  background-color: rgb(224, 16, 130);
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color:white;
+}
+
+
+li a {
+  display:block;
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*dit is wat je te zien krijgt als je het menu aanraakt, ik heb er de kleur azure voor gekozen*/
+li a:hover:not(active) {
+  background-color: azure;
+}
+
+nav ul {
+  list-style-type: none;
   padding: 0;
 }
-
-/* Stijl voor de header */
-header {
-  background-color: rosybrown; /* Roodbruine achtergrondkleur */
-  text-align: center;
-  padding: 20px;
-  color: white;
-}
-
-/* Stijl voor links binnen lijstitems (navigatiemenu) */
-.navbar a {
-  color: #ff69b4; /* Roze tekstkleur */
-  text-decoration: none;
-  padding: 10px 20px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-/* Stijl voor hover-effect op links binnen lijstitems */
-.navbar a:hover {
-  background-color: #98fb98; /* Mintgroen-achtige achtergrondkleur bij hover */
-  color: #ff1493; /* Donkerroze tekstkleur bij hover */
-}
-
-/* Stijl voor de achtergrond van het artikel */
+/*hiermee heb ik het blok waarin ik mijn tekst heb geschreven gestijld*/
 article {
-  background-color: mintcream; /* Mintgroen-achtige achtergrondkleur */
-  padding: 20px;
-}
-
-/* Stijl voor tekstkoppen */
-.tekstkop {
-  background-color: rosybrown; /* Roodbruine achtergrondkleur voor koppen */
-  color: white;
-  padding: 10px;
-  font-weight: bold;
-  margin: 0;
-}
-
-/* Aangepaste stijl voor de footer */
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: rosybrown; /* Roodbruine achtergrondkleur voor de footer */
-  color: white;
-}
-
-/* Aangepaste stijl voor links in een box */
-#link1 {
-  color: rosybrown; /* Roodbruine tekstkleur voor de link-box */
-  background-color: #ff69b4; /* Roze achtergrondkleur voor de link-box */
-  text-align: center;
-  padding: 10px 15px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-/* Stijl voor de navigatiebalk */
-.navbar {
-  overflow: hidden;
-  background-color: rosybrown; /* Roodbruine achtergrondkleur voor de navigatiebalk */
-}
-
-/* Stijl voor dropdowns in de navigatiebalk */
-.dropdown {
   float: left;
-  overflow: hidden;
+  padding: 15px;
+  width: 90%;
+  background-color:rgb(246, 222, 241);
 }
 
-/* Stijl voor de dropdownknop */
-.dropdown .dropbtn {
-  font-weight: bold;
-  border: none;
-  outline: none;
-  color: rosybrown; /* Roodbruine tekstkleur voor dropdown-knop */
-  padding: 10px 15px;
-  background-color: transparent;
-  transition: background-color 0.3s ease;
+/*hiermee heb ik mijn tekstkopjes gestijld*/
+.tekstkop {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: lightsalmon;
+  color: rgb(243, 114, 200);
+  padding: 9px;
+  width: 100%; /* Add this line to make the boxes span the full width */
+}
+/*hiermee behouden kolommen hun juiste positie*/
+section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-/* Stijl voor hover-effect op links in de navigatiebalk en dropdowns */
+/*hiermee heb ik mijn footer gestijld*/
+footer {
+text-align: center;
+padding: 11px;
+background-color: lightsalmon;
+color: white;
+}
+/*hiermee worden de links in een box weergegeven*/
+#link1  {
+color: black;
+background-color: rgb(243, 216, 228);
+text-align: center;
+padding: 8px 8px;
+text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+overflow: hidden;
+background-color: rgb(210, 101, 175);
+}
+
+.navbar a {
+float: left;
+font-size: 20px;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 12px 14px;
+text-decoration: none;
+border-right: 3px solid rgb(255, 255, 255);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+border-right: 3px solid rgb(255, 255, 255);
+}
+
+.dropdown .dropbtn  {
+font-size: 20px;  
+border: none;
+outline: none;
+color: rgba(16, 2, 2);
+padding: 12px 14px;
+background-color: inherit;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+}
+
+
+
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #ff69b4; /* Roze achtergrondkleur bij hover */
-  color: #98fb98; /* Mintgroene tekstkleur bij hover */
+background-color: rgb(247, 229, 242);
+color: white;
 }
 
-/* Stijl voor dropdown-content */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ff69b4; /* Roze achtergrondkleur voor dropdown-content */
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
 }
 
-/* Stijl voor links in dropdown-content */
 .dropdown-content a {
-  color: #98fb98; /* Mintgroene tekstkleur voor links in dropdown-content */
-  background-color: transparent;
-  padding: 10px 15px;
-  font-weight: bold;
-  text-decoration: none;
-  display: block;
-  transition: background-color 0.3s ease;
+float: none;
+color: white;
+background-color: #f6aedd;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
 }
 
-/* Stijl voor hover-effect op links in dropdown-content */
 .dropdown-content a:hover {
-  background-color: #ff1493; /* Donkerroze achtergrondkleur bij hover */
-  color: #fff; /* Witte tekstkleur bij hover */
+background-color: rgb(235, 137, 165);
+color: rgb(61, 14, 42);
 }
 
-/* Stijl om dropdown-content weer te geven bij hover op de dropdown */
 .dropdown:hover .dropdown-content {
-  display: block;
+display: block;
+}
+.dropbtn {
+overflow: hidden;
+background-color: rgb(210, 101, 175);
+}
+
+.dropbtn a {
+float: left;
+font-size: 20px;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 12px 14px;
+text-decoration: none;
+border-right: 3px solid rgb(255, 255, 255);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
