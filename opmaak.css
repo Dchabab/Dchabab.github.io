@@ -34,7 +34,7 @@ nav ul {
 }
 /*hiermee heb ik het blok waarin ik mijn tekst heb geschreven gestijld*/
 article {
-  float: middle;
+  float: center;
   padding: 15px;
   width: 90%;
   background-color:rgb(246, 222, 241);
