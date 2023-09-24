@@ -87,6 +87,7 @@ text-decoration: none;
 border-right: 3px solid rgb(255, 255, 255);
 font-family: Arial, Helvetica, sans-serif;
 }
+/*hiermee heb ik mijn dropdown menu gestijld*/
 
 .dropdown {
 float: left;
@@ -111,7 +112,7 @@ margin: 0;
 background-color: rgb(247, 229, 242);
 color: white;
 }
-
+/*hiermee heb ik het zichtbare deel van mijn dropdown menu gestijld*/
 .dropdown-content {
 display: none;
 position: absolute;
@@ -131,14 +132,18 @@ display: block;
 text-align: left;
 }
 
+/* hiermee krijg je het hover-effect voor de opties van mijn dropdown menu */
 .dropdown-content a:hover {
 background-color: rgb(235, 137, 165);
 color: rgb(61, 14, 42);
 }
 
+/* Dit zorgt ervoor dat de dropdown zichtbaar wordt wanneer je eroverheen beweegt */
 .dropdown:hover .dropdown-content {
 display: block;
 }
+
+/* Dit zijn nog wat basisstijlen voor mijn dropdown menu */
 .dropbtn {
 overflow: hidden;
 background-color: rgb(210, 101, 175);
